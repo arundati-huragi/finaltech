@@ -4,4 +4,23 @@
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
+
+  <servlet>
+    <servlet-name>LoginSrv</servlet-name>
+    <servlet-class>com.shashi.srv.LoginSrv</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginSrv</servlet-name>
+    <url-pattern>/LoginSrv</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddtoCart</servlet-name>
+    <servlet-class>com.shashi.srv.AddtoCart</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddtoCart</servlet-name>
+    <url-pattern>/AddtoCart</url-pattern>
+  </servlet-mapping>
+
 </web-app>
