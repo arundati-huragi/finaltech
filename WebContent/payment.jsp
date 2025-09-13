@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ page
-	import="com.shashi.service.impl.*, com.shashi.service.*,com.shashi.beans.*,java.util.*,javax.servlet.ServletOutputStream,java.io.*"%>
+	import="com.shashi.service.impl.*, com.shashi.service.*,com.shashi.beans.*,java.util.*,java.io.*"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -50,7 +50,7 @@
 				<div style="font-weight: bold;" class="text-center">
 					<div class="form-group">
 						<img src="images/profile.jpg" alt="Payment Proceed" height="100px" />
-						<h2 style="color: green;">Credit Card Payment</h2>
+						<h2 style="color: rgb(22, 183, 211);">Credit Card Payment</h2>
 					</div>
 				</div>
 				<div class="row">

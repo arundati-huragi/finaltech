@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ page
-	import="com.shashi.service.impl.*, com.shashi.service.*,com.shashi.beans.*,java.util.*,javax.servlet.ServletOutputStream,java.io.*"%>
+	import="com.shashi.service.impl.*, com.shashi.service.*,com.shashi.beans.*,java.util.*,javax.servlet.ServletOutputStream.*,java.io.*"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,13 +39,13 @@
 	<jsp:include page="header.jsp" />
 
 	<div class="text-center"
-		style="color: green; font-size: 24px; font-weight: bold;">Stock
+		style="color: rgb(26, 108, 175); font-size: 24px; font-weight: bold;">Stock
 		Products</div>
 	<div class="container-fluid">
 		<div class="table-responsive ">
 			<table class="table table-hover table-sm">
 				<thead
-					style="background-color: #2c6c4b; color: white; font-size: 18px;">
+					style="background-color: #2993ea; color: white; font-size: 18px;">
 					<tr>
 						<th>Image</th>
 						<th>ProductId</th>

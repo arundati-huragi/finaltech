@@ -26,7 +26,7 @@
 				class="col-md-6 col-md-offset-3"
 				style="border: 2px solid black; border-radius: 10px; background-color: #FFE5CC; padding: 10px;">
 				<div style="font-weight: bold;" class="text-center">
-					<h2 style="color: green;">Registration Form</h2>
+					<h2 style="color: rgb(22, 188, 222);">Registration Form</h2>
 					<%
 					if (message != null) {
 					%>

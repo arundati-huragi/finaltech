@@ -39,7 +39,7 @@
 	<jsp:include page="header.jsp" />
 
 	<div class="text-center"
-		style="color: green; font-size: 24px; font-weight: bold;">UnShipped
+		style="color: rgb(128, 0, 117); font-size: 24px; font-weight: bold;">UnShipped
 		Orders</div>
 	<div class="container-fluid">
 		<div class="table-responsive ">

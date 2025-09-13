@@ -64,7 +64,7 @@ Step 2 : Go to [https://myaccount.google.com/security](https://myaccount.google.
 
 Step 3: Go to [https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords) and enter password if asked
 
-Step 4: In Select an App Section: select Other (custom name) => enter "Ellison Electronics" => Generate
+Step 4: In Select an App Section: select Other (custom name) => enter "Tech Cart" => Generate
 
 Step 5: After that it will generate 16 digits app password which you need to copy and save for future configurations.
 
@@ -95,7 +95,7 @@ Step 7: Tomcat Configurations:
 		<p align='center'>or</p>
 	- You can directly goto server tab, select the tomcat server and use the debug or run button to start the previously ran project
 
-Step 8: Check Running The Site At  [http://localhost:8080/shopping-cart/](http://localhost:8080/shopping-cart/)
+Step 8: Check Running The Site At  [http://localhost:8083/shopping-cart/](http://localhost:8083/shopping-cart/)
 
 Step 9:  [To Change the Port, if getting error like 'port already in use'] Open The Server Tab > Double Click On Tomcat Server > Ports > Change The Port Number For Http/1.1 To 8083 > Close And Save. Now Start and you can access the project on [http://localhost:8083/shopping-cart/](http://localhost:8083/shopping-cart/)
 

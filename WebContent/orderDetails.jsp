@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ page
-	import="com.shashi.service.impl.*, com.shashi.service.*,com.shashi.beans.*,java.util.*,javax.servlet.ServletOutputStream,java.io.*"%>
+	import="com.shashi.service.impl.*, com.shashi.service.*,com.shashi.beans.*,java.util.*,java.io.*"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,7 +40,7 @@
 	<!-- <script>document.getElementById('mycart').innerHTML='<i data-count="20" class="fa fa-shopping-cart fa-3x icon-white badge" style="background-color:#333;margin:0px;padding:0px; margin-top:5px;"></i>'</script>
  -->
 	<div class="text-center"
-		style="color: green; font-size: 24px; font-weight: bold;">Order
+		style="color: rgb(38, 0, 128); font-size: 24px; font-weight: bold;">Order
 		Details</div>
 	<!-- Start of Product Items List -->
 	<div class="container">

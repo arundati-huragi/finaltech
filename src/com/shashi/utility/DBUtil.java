@@ -22,17 +22,28 @@ public class DBUtil {
 				String driverName = rb.getString("db.driverName");
 				String username = rb.getString("db.username");
 				String password = rb.getString("db.password");
+
+				System.out.println("DB Connection Properties:");
+				System.out.println("Connection String: " + connectionString);
+				System.out.println("Driver Name: " + driverName);
+				System.out.println("Username: " + username);
+				// Do not print password for security reasons
+
 				try {
 					Class.forName(driverName);
 				} catch (ClassNotFoundException e) {
+					System.err.println("JDBC Driver class not found: " + e.getMessage());
 					e.printStackTrace();
+					throw new RuntimeException(e);
 				}
 				conn = DriverManager.getConnection(connectionString, username, password);
 
+				System.out.println("Database connection established successfully.");
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			System.err.println("Failed to create database connection: " + e.getMessage());
 			e.printStackTrace();
+			throw new RuntimeException(e);
 		}
 
 		return conn;

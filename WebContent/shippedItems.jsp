@@ -36,7 +36,7 @@
 	<jsp:include page="header.jsp" />
 
 	<div class="text-center"
-		style="color: green; font-size: 24px; font-weight: bold;">Shipped
+		style="color: rgb(127, 11, 165); font-size: 24px; font-weight: bold;">Shipped
 		Orders</div>
 	<div class="container-fluid">
 		<div class="table-responsive ">

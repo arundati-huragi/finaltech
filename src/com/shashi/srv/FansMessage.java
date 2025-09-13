@@ -2,12 +2,12 @@ package com.shashi.srv;
 
 import java.io.IOException;
 
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import com.shashi.utility.MailMessage;
 
@@ -28,7 +28,7 @@ public class FansMessage extends HttpServlet {
 
 		response.setContentType("text/html");
 		String htmlTextMessage = "" + "<html>" + "<body>"
-				+ "<h2 style='color:green;'>Message to Ellison Electronics</h2>" + ""
+				+ "<h2 style='color:blue;'>Message to Tech Cart</h2>" + ""
 				+ "Fans Message Received !!<br/><br/> Name: " + name + "," + "<br/><br/> Email Id: " + email
 				+ "<br><br/>" + "Comment: " + "<span style='color:grey;'>" + comments + "</span>"
 				+ "<br/><br/>We are glad that fans are choosing us! <br/><br/>Thanks & Regards<br/><br/>Auto Generated Mail"

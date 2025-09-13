@@ -185,9 +185,15 @@ public class ProductServiceImpl implements ProductService {
 
 	@Override
 	public List<ProductBean> getAllProducts() {
+		System.out.println("getAllProducts() called");
 		List<ProductBean> products = new ArrayList<ProductBean>();
 
 		Connection con = DBUtil.provideConnection();
+		if (con == null) {
+			System.err.println("DB connection is null in getAllProducts()");
+		} else {
+			System.out.println("DB connection obtained in getAllProducts()");
+		}
 
 		PreparedStatement ps = null;
 		ResultSet rs = null;

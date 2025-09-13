@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ page
-	import="com.shashi.service.impl.*, com.shashi.service.*,com.shashi.beans.*,java.util.*,javax.servlet.ServletOutputStream,java.io.*"%>
+	import="com.shashi.service.impl.*, com.shashi.service.*,com.shashi.beans.*,java.util.*,java.io.*"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,7 +70,7 @@
 
 		<table class="table table-hover">
 			<thead
-				style="background-color: #186188; color: white; font-size: 16px; font-weight: bold;">
+				style="background-color: #e4e6e8; color: white; font-size: 16px; font-weight: bold;">
 				<tr>
 					<th>Picture</th>
 					<th>Products</th>
@@ -147,7 +147,7 @@
 								style="background-color: black; color: white;">Cancel</button>
 						</form></td>
 					<td colspan="2" align="center"><form method="post">
-							<button style="background-color: blue; color: white;"
+							<button style="background-color: rgb(108, 235, 125); color: white;"
 								formaction="payment.jsp?amount=<%=totAmount%>">Pay Now</button>
 						</form></td>
 
